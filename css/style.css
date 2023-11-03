@@ -65,3 +65,11 @@ h1 {
         height: 400px   ;
 }
 
+/* Exercise 5 - Descendant combinators */
+
+.parent .child {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

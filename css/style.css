@@ -1,7 +1,12 @@
-/* Divs */
+/* General CSS */
 
 .punto {
     padding-bottom: 50px;
+    width: 1080px;
+}
+
+h1 {
+    text-align: center;
 }
 
 /* Exercise 1 - CSS Methods (External, Internal, Inline */

@@ -1,6 +1,6 @@
 /* General CSS */
 
-.punto {
+.center {
     padding-bottom: 50px;
     max-width: 80%;
     margin: auto;
@@ -31,67 +31,69 @@ h1 {
     margin-right: 10px;
 }
 
-/* Exercise 1 - CSS Methods (External, Internal, Inline */
-.exerciseuno {
-    background-color: red;
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
-  }
+/* -------------------CSS-EXERCISES------------------------ */
+    /* Exercise 1 - CSS Methods (External, Internal, Inline */
+    .exerciseuno {
+        background-color: red;
+        color: white;
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+    }
 
-/* Exercise 2 - Class ID Selectors */
-.oddnumbers{
-    background-color: #fe748e;
-    font-family: Verdana, sans-serif;
-}
+    /* Exercise 2 - Class ID Selectors */
+    .oddnumbers{
+        background-color: #fe748e;
+        font-family: Verdana, sans-serif;
+    }
 
-.cooler {
-    font-size: 24px;
-}
+    .cooler {
+        font-size: 24px;
+    }
 
-#numbatwo {
-    color: #10f;
-    font-size: 36px;
-}
+    #numbatwo {
+        color: #10f;
+        font-size: 36px;
+    }
 
-#numbafour {
-    background-color: #29e368;
-    font-weight: bold;
-}
+    #numbafour {
+        background-color: #29e368;
+        font-weight: bold;
+    }
 
-/* Exercise 3 - Grouping Selectors */
-.button1 .button2{
-    font-size: 28px;
-    font-family: Helvetica, 'Times New Roman', sans-serif;
-}
+    /* Exercise 3 - Grouping Selectors */
+    .button1 .button2{
+        font-size: 28px;
+        font-family: Helvetica, 'Times New Roman', sans-serif;
+    }
 
-.button1 {
-    background-color: black;
-    color: white;
-}
+    .button1 {
+        background-color: black;
+        color: white;
+    }
 
-.button2 {
-    background-color: yellow;
-}
+    .button2 {
+        background-color: yellow;
+    }
 
-/* Exercise 4 - Chained Selectors */
+    /* Exercise 4 - Chained Selectors */
 
-.avatar.proportioned{
-    width: 300px;   
-    height: auto;
-}
+    .avatar.proportioned{
+        width: 300px;   
+        height: auto;
+    }
 
-.avatar.distorted {
-        width: 200px;
-        height: 400px   ;
-}
+    .avatar.distorted {
+            width: 200px;
+            height: 400px   ;
+    }
 
-/* Exercise 5 - Descendant combinators */
+    /* Exercise 5 - Descendant combinators */
 
-.parent .child {
-    background-color: yellow;
-    color: red;
-    font-size: 20px;
-    text-align: center;
-}
+    .parent .child {
+        background-color: yellow;
+        color: red;
+        font-size: 20px;
+        text-align: center;
+    }
+/* -------------------CSS-EXERCISES------------------------ */

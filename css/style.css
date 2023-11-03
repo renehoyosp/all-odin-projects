@@ -2,11 +2,33 @@
 
 .punto {
     padding-bottom: 50px;
-    width: 50%;
+    max-width: 80%;
+    margin: auto;
+
 }
 
 h1 {
     text-align: center;
+}
+
+.all-images{
+    height: auto;
+    width: 100%;
+}
+
+.ul,
+.li {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.ul {
+    list-style: none;
+}
+
+.li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 /* Exercise 1 - CSS Methods (External, Internal, Inline */

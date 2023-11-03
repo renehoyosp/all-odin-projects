@@ -1,0 +1,49 @@
+/* Divs */
+
+.punto {
+    padding-bottom: 50px;
+}
+
+/* Exercise 1 - CSS Methods (External, Internal, Inline */
+.exerciseuno {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+/* Exercise 2 - Class ID Selectors */
+.oddnumbers{
+    background-color: #fe748e;
+    font-family: Verdana, sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#numbatwo {
+    color: #10f;
+    font-size: 36px;
+}
+
+#numbafour {
+    background-color: #29e368;
+    font-weight: bold;
+}
+
+/* Exercise 3 - Grouping Selectors */
+.button1 .button2{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    background-color: yellow;
+}

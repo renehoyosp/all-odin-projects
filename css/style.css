@@ -1,5 +1,6 @@
 /* ----------General CSS---------------- */
 
+
     .center {
         padding-bottom: 50px;
         max-width: 80%;
@@ -108,4 +109,53 @@
         font-size: 20px;
         text-align: center;
     }
+
+    /* Exercise 6 - Cascades */
+
+    .para,
+    .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+    }
+
+    .small-para {
+    font-size: 14px;
+    font-weight: 800;
+    }
+
+    .para {
+    font-size: 22px;
+    }
+
+    .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+    } 
+
+    .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    }
+
+    .child2 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+    }
+
+    div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+    }
 /* -------------------CSS-EXERCISES------------------------ */
+
+.alert {
+    color: red;
+}
+
+.warning {
+    color: yellow;
+}

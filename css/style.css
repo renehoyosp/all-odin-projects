@@ -15,7 +15,6 @@
     }
 
     .button2 {
-        box-sizing: border-box;
         padding: 5px;
         margin-left: auto;
         margin-right: auto;
@@ -201,26 +200,39 @@
     .card {
         width: 400px;
         background: #fff;
+        border: 1px #10f solid;
         margin: 16px auto;
+        padding: 8px;
       }
       
-      .title {
+    .title {
         background: #e3f4ff;
+        padding: 8px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 16px;
       }
       
-      .content {
+    .content {
         background: #e3f4ff;
+        margin-bottom: 8px;
+        padding: 16px 8px;
       }
       
-      .button-container {
+    .button-container {
         background: #e3f4ff;
+        padding: 8px;
+        text-align: center;
       }
       
-      button {
+    .button-exercise {
         background: white;
         border: 1px solid #eee;
+        padding: 8px 24px;
+        display: block;
+        margin: auto;
       }
-      
+
 /* -------------------CSS-EXERCISES------------------------ */
 
 /* -------------------Recipes-Website---------------------- */

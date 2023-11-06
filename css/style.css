@@ -18,7 +18,6 @@
         text-align: center;
     }
 
-
     .all-images{
         height: 50%;
         width: auto;
@@ -160,6 +159,35 @@
         font-size: 22px;
         font-weight: 100;
     }
+
+    /* Margin and Padding */
+
+    .one {
+        background: pink;
+        border: 3px solid blue;
+        /* CHANGE ME */
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      .two {
+        background: lightblue;
+        border: 3px solid purple;
+        /* CHANGE ME */
+        margin-bottom: 0px;
+      }
+      
+      .three {
+        background: peachpuff;
+        border: 3px solid brown;
+        width: 200px;
+        /* CHANGE ME */
+        padding: 0px;
+        margin-left: 0px;
+      }
+
+      
+    /* Margin and Padding */
 /* -------------------CSS-EXERCISES------------------------ */
 
 /* -------------------Recipes-Website---------------------- */

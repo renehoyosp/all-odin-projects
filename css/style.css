@@ -196,8 +196,31 @@
         margin-left: auto;
       }
 
+    /* Margin and Padding - Exercise 2 */
 
-    /* Margin and Padding */
+    .card {
+        width: 400px;
+        background: #fff;
+        margin: 16px auto;
+      }
+      
+      .title {
+        background: #e3f4ff;
+      }
+      
+      .content {
+        background: #e3f4ff;
+      }
+      
+      .button-container {
+        background: #e3f4ff;
+      }
+      
+      button {
+        background: white;
+        border: 1px solid #eee;
+      }
+      
 /* -------------------CSS-EXERCISES------------------------ */
 
 /* -------------------Recipes-Website---------------------- */

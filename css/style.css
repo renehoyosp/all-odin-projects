@@ -8,12 +8,6 @@
         box-sizing: border-box;
     }
 
-    .center {
-        max-width: 90%;
-        margin: 0 auto;
-
-    }
-
     .button2 {
         padding: 5px;
         margin-left: auto;
@@ -54,6 +48,10 @@
     .li {
         display: inline-block;
         margin-right: 40px;
+    }
+
+    .button-pagination {
+        text-align: center;
     }
 
 
@@ -237,18 +235,70 @@
 
 /* -------------------Recipes-Website---------------------- */
 
-.mask-shape {
-    clip-path: circle(40%);
+/* Layout Header y Navs */
+
+.nav-menu,
+.nav-lists {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.center .textsize {
-    font-size: 2em;
+.header-mid {
+    text-align: center;
 }
 
-.textsize {
-    font-size: 2em;
+.header-mid h1,
+.nav-lists {
+    padding: 5px;
+    margin: 0;
 }
 
+.nav-menu {
+    list-style: none;
+    /* border-top  : 2px solid black; */
+}
+
+.nav-menu ul {
+    margin: 2px, 0, 0, 0;
+    padding: 0;
+}
+
+.nav-lists {
+    display: inline-block;
+    font-size: 18px;
+    /* border: 2px solid black; */
+    background-color: honeydew;
+    margin: 0;
+}
+
+.img-block {    
+    display: block;  
+    background-color: #f7c257;
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: auto;
+}
+
+.description-block,
+.info-blocks {
+    margin: 3px 10px;
+
+}
+
+.description-block {         
+    /* border: 2px solid red; */
+}
+
+.info-blocks {
+    /* border: 2px solid green; */
+
+}
+
+
+/* Layout Header Navs */
 
 
 /* -------------------Recipes-Website---------------------- */

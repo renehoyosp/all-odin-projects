@@ -33,6 +33,7 @@
         margin-top: 10px;
         margin-bottom: 20px;
         width: 50%;
+        border: 2px solid #f7c257;
     }
 
     .ul,
@@ -264,6 +265,7 @@
     padding: 0;
 }
 
+
 .nav-lists {
     display: inline-block;
     font-size: 18px;
@@ -285,7 +287,10 @@
 .description-block,
 .info-blocks {
     margin: 3px 10px;
+}
 
+.nav-menu ul button {
+    font-size: 35px;
 }
 
 .description-block {         

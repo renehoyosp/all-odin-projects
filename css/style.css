@@ -258,6 +258,33 @@
         width: 80px;
         height: 80px;
       }
+
+      /* Flexbox -- Exercise 2 */
+      .header  {
+        font-family: monospace;
+        background: papayawhip;
+      }
+      
+      .logo {
+        font-size: 48px;
+        font-weight: 900;
+        color: tomato;
+        background: white;
+        padding: 4px 32px;
+      }
+      
+      .nav-ex2 {
+        /* this removes the dots on the list items*/
+        list-style-type: none;
+      }
+      
+      .a-ex2 {
+        font-size: 22px;
+        background: white;
+        padding: 8px;
+        /* this removes the line under the links */
+        text-decoration: none;
+      }
     
 
 /* -------------------CSS-EXERCISES------------------------ */

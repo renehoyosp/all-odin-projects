@@ -277,13 +277,14 @@
         color: tomato;
         background: white;
         padding: 4px 32px;
+        justify-content: center;
+        align-content: center;
       }
       
       .nav-ex2 {
         border: 2px solid green;
         display: flex;
-        flex-grow: 1;
-
+        gap: 8px;
         /* this removes the dots on the list items*/
         list-style-type: none;
       }

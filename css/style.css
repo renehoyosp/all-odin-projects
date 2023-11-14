@@ -265,6 +265,7 @@
         display: flex;
         justify-content: space-between;
         gap: 8px;
+        align-items: center;
         padding: 10px;
         font-family: monospace;
         background: papayawhip;
@@ -277,23 +278,21 @@
         color: tomato;
         background: white;
         padding: 4px 32px;
-        justify-content: center;
-        align-content: center;
       }
       
       .nav-ex2 {
-        border: 2px solid green;
         display: flex;
         gap: 8px;
+        margin: 0;
+        padding: 0;
         /* this removes the dots on the list items*/
         list-style-type: none;
       }
-      
+
       .nav-ex2 a {
         border: 2px solid black;
         font-size: 22px;
         background: white;
-        padding: 8px;
         /* this removes the line under the links */
         text-decoration: none;
       }

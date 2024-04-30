@@ -568,8 +568,36 @@
     margin-right: 5px;
   }
 
+/* Flexboxx -- Exercise 7 */
+  .body-ex7 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
 
+  .header-ex7 {
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+  }
 
+  .footer-ex7 {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+  }
+
+  .sidebar-ex7 {
+    width: 300px;
+    background: royalblue;
+    box-sizing: border-box;
+  }
+
+  .card-ex7 {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+  }
 
 
 /* -------------------CSS-EXERCISES------------------------ */

@@ -517,23 +517,59 @@
     font-family: Roboto, sans-serif;
   }
   
-  .content-ex6.img {
+  .content-ex6 img {
     width: 600px;
   }
+
+  .content-ex6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    margin: 70px 70px;
+  }
   
-  .buttons-ex6.button {
+  .buttons-ex6 button {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
     background: #eee;
+    padding: 10px;
   }
   
-  .input-ex6 {
+  .input-ex6 input {
     border: 1px solid #ddd;
     border-radius: 16px;
     padding: 8px 24px;
     width: 400px;
   }
+
+  .header-ex6,
+  .footer-ex6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .footer-ex6 {
+    background-color: #eeeeee;
+  }
+
+  /* CAN BE OPTIMIZED BY DISPLAY:FLEX ON THE UL */
+
+  .header-ex6 li,
+  .footer-ex6 li,
+  .header-ex6 li a,
+  .footer-ex6 li a {
+    display: inline;
+    text-decoration: none; 
+    margin-right: 5px;
+  }
+
+
+
 
 
 /* -------------------CSS-EXERCISES------------------------ */

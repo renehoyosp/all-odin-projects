@@ -370,7 +370,10 @@
       /* Flexbox -- Exercise 4 */
 
       .images-ex4 {
+        display: flex;
+        justify-content: center;
         width: 100px;
+        /* border: 2px solid aqua; */
         height: 100px;
       }
       
@@ -378,11 +381,34 @@
         display: flex;
         justify-content: center;
         gap: 32px;
-        border: 2px solid #fe748e;
+        /* border: 2px solid #fe748e; */
         font-size: 36px;
         font-weight: 900;
+        margin-bottom: 32px;
       }
 
+      .item-plants {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        flex-wrap: wrap;
+      }
+
+
+      .text-ex4 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+       /*  border: 1px solid red; */
+      }
+
+      .container-plants {
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+        /* border: 1px solid black; */
+      }
 
 
 
